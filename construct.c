@@ -31,4 +31,5 @@ int main(){
     printf("Random Price Value: \t");
     f = *(newSandwich(p,k1));
     printferrySandwich(&f);
+    free(f);
 }
